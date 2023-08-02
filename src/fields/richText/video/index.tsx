@@ -1,12 +1,10 @@
-import plugin from './plugin';
-import Element from './Element';
-import Button from './Button';
+import Button from './Button'
+import Element from './Element'
+import plugin from './plugin'
 
 export default {
   name: 'video',
   Button,
   Element,
-  plugins: [
-    plugin,
-  ],
-};
+  plugins: [plugin],
+}

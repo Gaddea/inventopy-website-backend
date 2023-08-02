@@ -45,3 +45,11 @@ Type `cp .env.example .env` in your terminal to make a copy of the example `.env
 **Fire up the development server**
 
 Finally, type `yarn dev` to start up the server and see it in action!
+
+For Dev environment MongoDB needed, have the following running:
+
+`docker run -d -p 27017:27017 --name test-mongo mongo:latest`
+
+If there are errors in the code run the following:
+
+`lint:fix`
