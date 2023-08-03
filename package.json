@@ -3,7 +3,7 @@
   "description": "Blank template - no collections",
   "version": "1.0.0",
   "main": "dist/server.js",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
     "drop": "cross-env PAYLOAD_DROP_DATABASE=true PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
